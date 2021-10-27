@@ -1,0 +1,142 @@
+.rs-17 .rs-about {
+    position: relative;
+    z-index: 10;
+}
+
+.rs-17 .rs-about__path {
+    position: absolute;
+    top: 0;
+    right: -130px;
+}
+
+.rs-17 .rs-about__path-img {
+    height: 100%;
+    overflow: hidden;
+    transition: width 0.3s ease 0s;
+}
+
+.rs-17 .rs-about__inner {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    padding-bottom: 85px;
+    position: relative;
+}
+
+.rs-17 .rs-about h2 {
+    -ms-flex: 0 0 707px;
+    flex: 0 0 707px;
+}
+
+.rs-17 .rs-about__text {
+    margin-top: 26px;
+    margin-left: 90px;
+}
+
+.rs-17 .rs-about__text p {
+    opacity: 0.7;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.rs-17 .rs-about__text p:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.rs-17 .rs-about__label {
+    position: absolute;
+    bottom: 0;
+    left: 620px;
+}
+
+.photostory {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.photostory .scroll-bounc {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    position: relative;
+    transition: all 0.1s linear 0s;
+    padding: 0;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.photostory__card {
+    -ms-flex: 0 0 610px;
+    flex: 0 0 610px;
+    height: 378px;
+    width: 610px;
+    position: relative;
+    margin-left: 48px;
+}
+
+.photostory__card:nth-child(1n) {
+    margin-top: 0px;
+}
+
+.photostory__card:nth-child(2n) {
+    margin-top: 136px;
+}
+
+.photostory__card:nth-child(3n) {
+    margin-top: 52px;
+}
+
+.photostory__card img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.photostory___card-media {
+    pointer-events: none;
+}
+
+@media (max-width: 1300px) {
+    .rs-17 .rs-about h2 {
+        -ms-flex: 0 0 407px;
+        flex: 0 0 407px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .rs-17 .rs-about__inner {
+        display: block;
+        padding-bottom: 130px;
+    }
+
+    .rs-17 .rs-about__text {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    .rs-17 .rs-about__label {
+        left: auto;
+        right: 0;
+    }
+}
