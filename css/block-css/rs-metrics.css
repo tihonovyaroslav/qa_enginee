@@ -1,0 +1,124 @@
+.rs-17 .rs-metrics {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.rs-17 .rs-metrics__path {
+    position: absolute;
+    top: -500px;
+    left: -446px;
+}
+
+.rs-17 .rs-metrics__path-img {
+    height: 100%;
+    overflow: hidden;
+    transition: width 0.3s ease 0s;
+}
+
+.rs-17 .rs-metrics__container {
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+
+.rs-17 .rs-metrics__column {
+    padding: 50px 0px;
+    -ms-flex: 0 1 50%;
+    flex: 0 1 50%;
+}
+
+.rs-17 .rs-metrics__column:last-child {
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    padding-left: 145px;
+}
+
+.rs-17 .rs-metrics__item {
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+}
+
+.rs-17 .rs-metrics__item:not(:last-child) {
+    margin-bottom: 80px;
+}
+
+.rs-17 .rs-metrics__item_main {
+    display: block;
+    text-align: left;
+}
+
+.rs-17 .rs-metrics__volume {
+    min-width: 250px;
+    margin-right: 31px;
+    display: block;
+    font-size: 100px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #83cdf1;
+    line-height: 1;
+}
+
+.rs-17 .rs-metrics__volume_main {
+    font-size: 400px;
+    margin-right: 0;
+}
+
+.rs-17 .rs-metrics__title {
+    text-align: left;
+    display: block;
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 22px;
+}
+
+.rs-17 .rs-metrics__text {
+    text-align: left;
+    display: block;
+    opacity: 0.7;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    max-width: 370px;
+}
+
+@media (max-width: 1600px) {
+    .rs-17 .rs-metrics {
+        margin-top: calc(30px + 70 * ((100vw - 320px) / 1280));
+    }
+
+    .rs-17 .rs-metrics {
+        margin-bottom: calc(30px + 70 * ((100vw - 320px) / 1280));
+    }
+
+    .rs-17 .rs-metrics__column:last-child {
+        padding-left: calc(0px + 145 * ((100vw - 320px) / 1280));
+    }
+}
+
+@media (max-width: 991.98px) {
+    .rs-17 .rs-metrics__container {
+        display: block;
+    }
+
+    .rs-17 .rs-metrics__column:last-child {
+        border: none;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .rs-17 .rs-metrics__item {
+        display: block;
+        -moz-text-align-last: left;
+        text-align-last: left;
+    }
+
+    .rs-17 .rs-metrics__volume_main {
+        font-size: 250px;
+    }
+}
